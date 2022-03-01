@@ -1,5 +1,14 @@
 # DatasiteTestAngular
 
+## Instructions to run the app
+
+- in the apps root directory, type `npm i`
+- next type `npm start`
+- If you don't already have it, download the [redux dev tool extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- Open the browser with the extension and visit [url](http://localhost:4200)
+- right click and click inspect (this is the fastest way to open the dev tools) and open the the redux dev tool
+- You will see all of the ngrx calls that were made with the current state
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
