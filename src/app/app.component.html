@@ -1,4 +1,4 @@
-<div *ngIf="loading$ | async">Loading...</div>
+<div class="loading" *ngIf="loading$ | async">Loading...</div>
 
 <div class="app-wrapper">
   <pre *ngFor="let user of users$ | async" class="card">
